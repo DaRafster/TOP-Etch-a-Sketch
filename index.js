@@ -39,7 +39,7 @@ function getRandomNumber(min, max) {
 
 sizeButton.addEventListener("click", () => {
   const numOfDivsPerSide = prompt(
-    "Please enter the size of the grid within the range of 16 to 100 (ex. for a 30x30 grid, enter 30) "
+    "Please enter the size of the grid within the range of 1 to 100 (ex. for a 30x30 grid, enter 30) "
   );
   createCanvas(numOfDivsPerSide);
 });
